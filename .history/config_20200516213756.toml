@@ -4,6 +4,7 @@ baseURL = "https://mattychance.github.io/devCv/"
 languageCode = "en"
 title = "matty cv"
 theme = "hugo-devresume-theme"
+publishdir("public")
 
 
 [params]
