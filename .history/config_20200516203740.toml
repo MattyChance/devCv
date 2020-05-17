@@ -1,0 +1,302 @@
+# Page settings
+
+baseURL = "https://example.org/"
+languageCode = "en"
+title = "matty cv"
+theme = "hugo-devresume-theme"
+
+
+
+
+
+
+[params]
+    author = "MattyChenWang"
+    description = "Matty - A slow and steady Software Developer"
+
+
+    primaryColor = "#e37db2"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Chen Wang (Matty)"
+        tagline = "Software Developer"
+        avatar = ""
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Montreal, Canada"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+1 514 616 8086"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "chenmatty.wang@gmail.com"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "JavaScript/Typescript"
+        [[params.skills.list.items]]
+        details = "React/Vue"
+        [[params.skills.list.items]]
+        details = "Node.js"
+        [[params.skills.list.items]]
+        details = "Elasticsearch/MongoDb"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL"
+        [[params.skills.list.items]]
+        details = "Git/Github"
+        [[params.skills.list.items]]
+        details = "Docker/K8S/AWS"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "A humble ♥️"
+
+        [[params.skills.list]]
+        title = "Learning"
+        [[params.skills.list.items]]
+        details = "Everything mentioned above"
+        [[params.skills.list.items]]
+        details = "Rust"
+        [[params.skills.list.items]]
+        details = "GraphQL"
+        
+
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Self-taught+Bootcamp Graduate"
+        university = "DecodeMTL"
+        dates = "2016"
+        [[params.education.list]]
+        degree = "MSc in Business Strategic Management"
+        university = "EDHEC Business School"
+        dates = "2010 - 2013"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Chinese Mandarin"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+        [[params.languages.list]]
+        name = "French"
+        level = "Professional"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = false
+
+        [[params.interests.list]]
+        name = "Climbing"
+        [[params.interests.list]]
+        name = "Snowboarding"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Believe in the power of simple code 🐵, continuous learning 💡, steady progress ✌️, teamwork 👨‍👨‍👧‍👧"
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Software Developer"
+        dates = "Dec 2017 - Present"
+        company = "SSENSE"
+        details = "Working on the backend micro services that serve data needs"
+        [[params.experience.list.items]]
+        details = "Participate in daily applicationn developement"
+        [[params.experience.list.items]]
+        details = "Contribute ideas and take part in solution design, implementation and testing"
+        [[params.experience.list.items]]
+        details = "Join and support team, working alongside peers, managers and collaborating teams"
+        [[params.experience.list.items]]
+        details = "Participate in hiring process, interviewing candidates"
+        [[params.experience.list.items]]
+        details = "Organize coding sessions, deliver SSENSE university class, join meetups, write article on SSENSE tech blog"
+
+
+        [[params.experience.list]]
+        title = "Junior Software Developer"
+        dates = "Feb 2017 - Dec 2017"
+        company = "Hikster"
+        details = "Working on the FrontEnd part of Hikster web app, add BackEnd functionalities"
+        [[params.experience.list.items]]
+        details = "Develop new API endpoints"
+        [[params.experience.list.items]]
+        details = "Develop new FrontEnd components for the web application"
+
+
+
+        [[params.experience.list]]
+        title = "Contract Software Developer"
+        dates = "Nov 2016 - Dec 2016"
+        company = "Dialogue"
+        details = "Working on the prototype of the admin application interface"
+        [[params.experience.list.items]]
+        details = "Develop an working prototype"
+
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/mattychance"
+        title = "mattyOnGithub"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/mattychenwang"
+        title = "mattyOnLinkin"
+        [[params.social.list]]
+
+
+
+
