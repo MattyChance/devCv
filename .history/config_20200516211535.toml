@@ -7,6 +7,7 @@ theme = "hugo-devresume-theme"
 publishDir = "public"
 
 
+
 [params]
     author = "MattyChenWang"
     description = "Matty - A slow and steady Software Developer"
